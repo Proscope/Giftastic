@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
     $('button').on('click', function() {
-        var animal = $(this).data('name');
+        var hero = $(this).data('name');
         var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + hero + "&api_key=dc6zaTOxFJmzC&limit=10";
 
         $.ajax({
